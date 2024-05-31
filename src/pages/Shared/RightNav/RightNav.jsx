@@ -7,6 +7,8 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
+import QZone from "../Q-zone/QZone";
+import bg from "../../../assets/bg.png";
 
 const RightNav = () => {
   return (
@@ -34,6 +36,10 @@ const RightNav = () => {
             Instagram
           </ListGroup.Item>
         </ListGroup>
+      </div>
+      <QZone />
+      <div>
+        <img src={bg} alt="" className="mx-4" />
       </div>
     </div>
   );
