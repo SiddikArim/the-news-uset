@@ -12,18 +12,7 @@ import Rating from "react-rating";
 import { Link } from "react-router-dom";
 
 const NewsCard = ({ news }) => {
-  const {
-    _id,
-    others_info,
-    category_id,
-    rating,
-    total_view,
-    title,
-    author,
-    thumbnail_url,
-    image_url,
-    details,
-  } = news;
+  const { _id, rating, total_view, title, author, image_url, details } = news;
   return (
     <Card className=" mb-4">
       <Card.Header className="d-flex align-items-center">
